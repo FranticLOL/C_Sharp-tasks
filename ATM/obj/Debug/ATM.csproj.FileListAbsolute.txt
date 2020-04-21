@@ -1,0 +1,7 @@
+C:\Users\Dimka\source\repos\ATM\ATM\bin\Debug\ATM.exe.config
+C:\Users\Dimka\source\repos\ATM\ATM\bin\Debug\ATM.exe
+C:\Users\Dimka\source\repos\ATM\ATM\bin\Debug\ATM.pdb
+C:\Users\Dimka\source\repos\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+C:\Users\Dimka\source\repos\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Dimka\source\repos\ATM\ATM\obj\Debug\ATM.exe
+C:\Users\Dimka\source\repos\ATM\ATM\obj\Debug\ATM.pdb
