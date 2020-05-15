@@ -147,7 +147,7 @@ namespace Calculator
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (textBox_Result.Text != "0" && textBox_Result.Text != null)
+            if (input != ""  && textBox_Result.Text != null)
             {
                 textBox_Result.Text += "/";
                 input += "/";
@@ -156,7 +156,7 @@ namespace Calculator
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (textBox_Result.Text != "0" && textBox_Result.Text != null)
+            if (input != "" && textBox_Result.Text != null)
             {
                 textBox_Result.Text += "*";
                 input += "*";
@@ -207,11 +207,15 @@ namespace Calculator
                 textBox_Result.Text += "0";
                 input += "0";
             }
+            if(textBox_Result.Text == "0")
+            {
+                input = "0";
+            }
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            if (textBox_Result.Text != "0" && textBox_Result.Text != null)
+            if (input != "" && textBox_Result.Text != null)
             {
                 textBox_Result.Text += ")";
                 input += ")";
